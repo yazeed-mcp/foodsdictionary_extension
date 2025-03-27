@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #status {
+      margin-top: 10px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h2>FoodsDictionary JSON Exporter</h2>
+  <button id="exportButton">Export to JSON</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
